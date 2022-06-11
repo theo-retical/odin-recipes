@@ -4,17 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Odin Recipes</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0c53597374.js" crossorigin="anonymous"></script>
 </head>
 <body>
-</body>
-    <img src="./images/chef.jpeg">
+    <div class="navbar">
+        <a class="active" href="index.html">Home</a>
+                
+        <div class="dropdown">
+            <button class="active dropbtn">Recipes
+            <i class="fa fa-caret-down"></i>
+            </button>
+            
+            <div class="dropdown-content">
+                <a href='navigation/starters.html'>Starters</a>
+                <a href='navigation/mains.html'>Mains</a>
+                <a href='navigation/desserts.html'>Desserts</a>
+            </div>
+        </div>
+        
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <input type="text" placeholder="Search..">
+    </div>
+    <div class="row">
+    <div class="column">
+    <div class="card">
+    <img src="./images/chef.jpeg" alt="little chef">
+    <div class="container">
     <h1>Odin Recipes</h1>
-    <ul>
-        <li><a href="./recipes/veggie-lasagna.html">Veggie Lasagna</a></li>
-        <li><a href="./recipes/veggie-pizza.html">Veggie Pizza</a></li>
-        <li><a href="./recipes/pumpkin-soup.html">Pumpkin Soup</a></li>
-        <li><a href="./recipes/chocolate-cake.html">Chocolate Cake</a></li>
-    </ul>
+    <p>Welcome to my practice website. A basic recipe site to practice HTML and CSS</p>
+    <p>theo_retical</p>
+    </div>
+    </div>
+    </div>
+    </div>
 </body>
 </html>
